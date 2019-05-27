@@ -18,15 +18,10 @@
     "start": "react-scripts start",
     "test": "react-scripts test"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "src/**/*.{js,jsx}": [
       "eslint",
-      "pretty-quick — staged",
+      "pretty-quick -- staged",
       "git add"
     ]
   },

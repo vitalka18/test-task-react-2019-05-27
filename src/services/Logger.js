@@ -1,5 +1,7 @@
+/* eslint-disable no-console */
+
 /**
- * Incapsulate logging systems in the single place
+ * Incapsulate logging systems into single place
  *
  * @class Logger
  */
