@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Layout from 'components/Layout/Layout';
+
 /**
  * Cart
  *
@@ -12,7 +14,11 @@ class Cart extends Component {
   };
 
   render() {
-    return <div>My Cart Page</div>;
+    return (
+      <Layout>
+
+      </Layout>
+    );
   }
 }
 
