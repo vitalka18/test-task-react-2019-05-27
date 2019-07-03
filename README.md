@@ -12,7 +12,7 @@ running.
 
 ```shell
 commands here
-```
+```1
 
 Here you should say what actually happens when you execute the code above.
 
